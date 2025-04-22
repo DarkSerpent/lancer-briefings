@@ -169,7 +169,7 @@ export default {
     },
     loadMissionMarkdown() {
       let self = this;
-      let md = `/missions/${self.mission_slug}.md`
+      let md = `https://raw.githubusercontent.com/DarkSerpent/lancer-briefings/refs/heads/master/public/missions/${self.mission_slug}.md`
       var client = new XMLHttpRequest();
       client.open('GET', md);
       client.onreadystatechange = function () {
