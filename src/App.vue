@@ -182,7 +182,7 @@ export default {
       let md = "";
 
       if(self.options.eventsMarkdownPerMission){
-        md = `/events/${self.mission_slug}.md`
+        md = `https://raw.githubusercontent.com/DarkSerpent/lancer-briefings/refs/heads/master/public/events/${self.mission_slug}.md`
       }
       else {
         md = "/events.md"
