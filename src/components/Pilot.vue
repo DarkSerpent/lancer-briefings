@@ -43,10 +43,10 @@ export default {
 	},
 	computed: {
 		pilotPortrait() {
-			return `/pilots/${this.pilot.callsign}.png`
+			return `/lancer-briefings/pilots/${this.pilot.callsign}.png`
 		},
 		mechPortrait() {
-			return `/mechs/${this.pilot.mech}.png`
+			return `/lancer-briefings/mechs/${this.pilot.mech}.png`
 		},
 	},
 	methods: {
