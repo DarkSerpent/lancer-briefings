@@ -50,7 +50,7 @@ export default {
 	},
 	created() {
 		let self = this;
-		let md = `/pilots/${this.pilot.callsign}.md`
+		let md = `https://raw.githubusercontent.com/DarkSerpent/lancer-briefings/refs/heads/master/public/pilots/${this.pilot.callsign}.md`
 		var client = new XMLHttpRequest();
 		client.open('GET', md);
 		client.onreadystatechange = function () {
