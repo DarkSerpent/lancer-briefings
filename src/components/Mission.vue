@@ -27,7 +27,7 @@ export default {
 	},
 	computed: {
 		icon() {
-			return `/icons/mission-${this.mission.status}.svg`
+			return `https://raw.githubusercontent.com/DarkSerpent/lancer-briefings/9efc0e99500b65855972cc27749fb524f536bd75/public/icons/mission-${this.mission.status}.svg`
 		},
 		missionStatus() {
 			if (this.mission.status === "start") return "Current\nBriefing"
