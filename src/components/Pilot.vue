@@ -46,7 +46,7 @@ export default {
 			return `https://raw.githubusercontent.com/DarkSerpent/lancer-briefings/refs/heads/master/public/pilots/${this.pilot.callsign}.png`
 		},
 		mechPortrait() {
-			return `https://raw.githubusercontent.com/DarkSerpent/lancer-briefings/refs/heads/master/public/pilots/${this.pilot.mech}.png`
+			return `https://raw.githubusercontent.com/DarkSerpent/lancer-briefings/refs/heads/master/public/mechs/${this.pilot.mech}.png`
 		},
 	},
 	methods: {
