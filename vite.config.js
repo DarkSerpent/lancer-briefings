@@ -6,10 +6,10 @@ import { fileURLToPath } from 'url'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: "/lancer-briefings/",
+  base: "lancer-briefings/",
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'),
+      '@': path.resolve(__dirname, 'lancer-briefings/src'),
     },
   }
 })
