@@ -45,7 +45,7 @@ export default {
 	},
 	computed: {
 		portrait() {
-			return `/pilots/${this.pilot.callsign}.png`
+			return `https://raw.githubusercontent.com/DarkSerpent/lancer-briefings/refs/heads/master/public/pilots/${this.pilot.callsign}.png`
 		},
 	},
 	created() {
